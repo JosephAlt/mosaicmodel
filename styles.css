@@ -2,6 +2,19 @@
     background-color: #ffc13b;
 }
 
-.header-span{
+.header-div{
+    background-color: #1e3d59;
+}
 
+.text-on-page{
+    color: #1e3d59;
+}
+
+#header-holder-anchor:visited,:link,:hover{
+    text-decoration:none;
+}
+
+.main-title-h1{
+    color:#ffc13b;
+    text-decoration:none;
 }

@@ -2,8 +2,21 @@
     background-color: #ffc13b;
 }
 
+#top-header-tag{
+
+}
+
+#logo-holder-span{
+    
+}
+
 .header-div{
     background-color: #1e3d59;
+    margin: -20px;
+    margin-top: -60px;
+    padding-left: 20px;
+    padding-top:0px ;
+    padding-bottom:0px;
 }
 
 .text-on-page{
@@ -17,4 +30,6 @@
 .main-title-h1{
     color:#ffc13b;
     text-decoration:none;
+    font-family: spiritual-mountain;
+    font-size: 80px;
 }

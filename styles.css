@@ -75,5 +75,6 @@ body{
 .hero-section{
     background-color: #ffc13b;
     min-height:500px;
-    
+    margin-left: -8px;
+    margin-right: -8px;
 }

@@ -1,3 +1,6 @@
+body{
+    background-color: #f5f0e1;
+}
 ::selection{
     background-color: #ffc13b;
 }
@@ -45,6 +48,7 @@
     color: #ffc13b;
     font-size: 25px;
     margin-right: 100px;
+    border-bottom: 3px solid #ffc13b;
 }
 .menu-actor-button:hover{
     cursor: pointer;
@@ -53,4 +57,14 @@
     border-color: #ffc13b;
     border-radius: 0px;
     font-size: 25px;
+    margin-right:97px;
+}
+.menu-actor-button:active{
+    cursor: pointer;
+    border: 3px solid #ffc13b;
+    
+    border-color: #ffc13b;
+    border-radius: 0px;
+    font-size: 25px;
+    margin-right:94px;
 }

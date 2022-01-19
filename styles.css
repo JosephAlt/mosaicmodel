@@ -7,29 +7,50 @@
 }
 
 #logo-holder-span{
-    
+    display: inline-block;
+    margin-right: 200px;
 }
 
 .header-div{
     background-color: #1e3d59;
     margin: -20px;
-    margin-top: -60px;
+    margin-top: -40px;
     padding-left: 20px;
-    padding-top:0px ;
-    padding-bottom:0px;
 }
 
 .text-on-page{
     color: #1e3d59;
 }
 
+
 #header-holder-anchor:visited,:link,:hover{
     text-decoration:none;
 }
 
-.main-title-h1{
+
+.main-title-p{
     color:#ffc13b;
     text-decoration:none;
-    font-family: spiritual-mountain;
-    font-size: 80px;
+    font-family: marcha;
+    font-size: 60px;
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom:10px;
+}
+
+.menu-actor-button{
+    border:none;
+    border-radius: 0px;
+    background-color:#1e3d5900;
+    color: #ffc13b;
+    font-size: 25px;
+    margin-right: 100px;
+}
+.menu-actor-button:hover{
+    cursor: pointer;
+    border-bottom: 3px solid #ffc13b;
+    border-right: 3px solid #ffc13b;
+    border-color: #ffc13b;
+    border-radius: 0px;
+    font-size: 25px;
 }

@@ -26,3 +26,8 @@
     font-family: lous-george-cafe;
     src: url(/assets/Louis\ George\ Cafe.ttf);
 }
+
+@font-face {
+    font-family: marcha;
+    src: url(/assets/Marcha.ttf);
+}

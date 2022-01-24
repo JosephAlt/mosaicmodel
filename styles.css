@@ -1,3 +1,10 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding:0px;
+    font-size: 100%;
+}
+
 body{
     background-color: #f5f0e1;
 }
@@ -11,15 +18,10 @@ body{
 
 #logo-holder-span{
     display: inline-block;
-    margin-right: 200px;
 }
 
 .header-div{
     background-color: #1e3d59;
-    margin-left: -20px;
-    margin-top: -40px;
-    margin-right: -20px;
-    padding-left: 20px;
 }
 
 .text-on-page{
@@ -27,28 +29,28 @@ body{
 }
 
 
-#header-holder-anchor:visited,:link,:hover{
+a:visited,:link,:hover{
     text-decoration:none;
 }
 
 
 .main-title-p{
+    padding-top: 10px;
+    margin-left: 20px;
     color:#ffc13b;
     text-decoration:none;
     font-family: marcha;
     font-size: 60px;
-    padding: 0;
-    margin-top: 30px;
-    margin-bottom:10px;
 }
 
 .menu-actor-button{
+    margin-left:120px;
+    width:120px;
     border:none;
     border-radius: 0px;
     background-color:#1e3d5900;
     color: #ffc13b;
     font-size: 25px;
-    margin-right: 100px;
     border-bottom: 3px solid #ffc13b;
 }
 
@@ -59,7 +61,6 @@ body{
     border-color: #ffc13b;
     border-radius: 0px;
     font-size: 25px;
-    margin-right:97px;
 }
 .menu-actor-button:active{
     cursor: pointer;
@@ -68,13 +69,10 @@ body{
     border-color: #ffc13b;
     border-radius: 0px;
     font-size: 25px;
-    margin-right:94px;
 }
 
 
 .hero-section{
     background-color: #ffc13b;
-    min-height:500px;
-    margin-left: -8px;
-    margin-right: -8px;
+    min-height:650px;
 }

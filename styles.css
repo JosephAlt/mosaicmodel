@@ -21,6 +21,7 @@ body{
 
 .header-div{
     background-color: #1e3d59;
+    position: relative;
 }
 
 .text-on-page{
@@ -57,7 +58,8 @@ a:visited,:link,:hover{
     cursor: pointer;
     border-bottom: 3px solid #ffc13b;
     border-right: 3px solid #ffc13b;
-    border-color: #ffc13b;
+    border-top: 1px solid #ffc13b;
+    border-left: 1px solid #ffc13b;
     border-radius: 0px;
     font-size: 25px;
 }
@@ -70,8 +72,18 @@ a:visited,:link,:hover{
     font-size: 25px;
 }
 
+.header-div:hover{
+    top:1px;
+
+}
+
+
 
 .hero-section{
     background-color: #ffc13b;
     min-height:650px;
+}
+
+.below-hero-section{
+    min-height: 500px;
 }

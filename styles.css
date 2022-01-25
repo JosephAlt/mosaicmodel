@@ -8,7 +8,7 @@ body{
     background-color: #f5f0e1;
 }
 ::selection{
-    background-color: #ffc13b;
+    background-color: #ffff00;
 }
 
 #top-header-tag{
@@ -72,9 +72,28 @@ a:visited,:link,:hover{
     font-size: 25px;
 }
 
-.header-div:hover{
-    top:1px;
+#header-animate-span{
+    display: inline-block;
+    position: relative;
+    top: -25px;
+    right:-295px;
+    min-height: 20px;
+    min-width:50px;
+    background-color: #ffffff;
+    transform: rotate(20deg);
+    visibility: hidden;    
+}
+#header-animate-p{
+    overflow:hidden;
+}
 
+.header-div:hover #header-animate-span{
+    visibility: visible;
+}
+
+#header-animate-span:hover{
+    visibility: visible;
+    cursor:grab;
 }
 
 
@@ -86,4 +105,10 @@ a:visited,:link,:hover{
 
 .below-hero-section{
     min-height: 500px;
+}
+
+p.sample-p{
+    float: left;
+    width:50%;
+    padding:20px;
 }

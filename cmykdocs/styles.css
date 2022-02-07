@@ -1,0 +1,32 @@
+@font-face {
+    font-family: PlayfairDisplayBlack;
+    src: url(assets/Playfair_Display/static/PlayfairDisplay-Black.ttf);
+}
+@font-face {
+    font-family: SourceSansRegular;
+    src: url(assets/Source_Sans_Pro/SourceSansPro-Regular.ttf);
+}
+
+:root{
+
+    /*Assigning Variables*/
+
+    --cyan: #00ffff;
+    --magenta: #ff00ff;
+    --yellow: #ffff00;
+    --key: #000000;
+
+    --heading: PlayfairDisplayBlack;
+    --text: SourceSansRegular;
+}
+
+*{
+   /*for everything*/
+   
+   
+}
+
+body{
+
+}
+

@@ -22,11 +22,21 @@
 
 *{
    /*for everything*/
-   
-   
+   padding: 0;
+   margin: 0;
 }
 
 body{
 
 }
 
+
+.hero-div{
+    /*background-color: var(--key);*/
+    min-height: 200vh;
+    background-image:url(/cmykdocs/assets/bg-hero.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: contain;
+}

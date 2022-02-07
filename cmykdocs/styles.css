@@ -24,6 +24,7 @@
    /*for everything*/
    padding: 0;
    margin: 0;
+   box-sizing: border-box;
 }
 
 body{
@@ -33,10 +34,25 @@ body{
 
 .hero-div{
     /*background-color: var(--key);*/
-    min-height: 200vh;
+    /*min-height: 140vh;
     background-image:url(/cmykdocs/assets/bg-hero.png);
     background-position: top center;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-size: contain;
+    background-size: contain;*/
+
+    min-height: 100vh;
+    background-color:var(--cyan);
+    border: 10px solid sienna;
+}
+
+.next-div{
+    min-height: 100vh;
+    background-color: var(--magenta);
+    transform: translate(-50%,-50%);
+    z-index: 30;
+}
+
+.model-2-h1{
+    text-align: center;
 }
